@@ -1,0 +1,571 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity/A Fools Paradise
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61377
+Successfully changed project path to: D:/Unity/A Fools Paradise
+D:/Unity/A Fools Paradise
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 114.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/A Fools Paradise/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.2686
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003184 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (618ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\A Fools Paradise\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\A Fools Paradise\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (563ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5538 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.2 MB). Loaded Objects now: 5973.
+Memory consumption went from 215.3 MB to 214.0 MB.
+Total: 4.167500 ms (FindLiveObjects: 0.510000 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.023900 ms  DeleteObjects: 0.497800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77707.183111 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/fx/explosion.gif
+  artifactKey: Guid(c6b910239cef81e44b0b478731ddf494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/fx/explosion.gif using Guid(c6b910239cef81e44b0b478731ddf494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a3de23c9be93b5e20d836119c9a3037') in 0.216506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Music/SuperGrottoEScape Audio Music Files/SuperGrottoEscape.ogg
+  artifactKey: Guid(ed1bcfc077c6b504c9b59400efe88f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Music/SuperGrottoEScape Audio Music Files/SuperGrottoEscape.ogg using Guid(ed1bcfc077c6b504c9b59400efe88f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7073a2328161b294d071f0a902a807f') in 0.059293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Environment/Layers/tileset-2.png
+  artifactKey: Guid(0ddc25edabc6e5a42b9c9ac7cab547c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Environment/Layers/tileset-2.png using Guid(0ddc25edabc6e5a42b9c9ac7cab547c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76de4ba6f6389c9552db5503ec9eb9b3') in 0.021722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/slime.png
+  artifactKey: Guid(00391826171b238498a7d1d91d4aaa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/slime.png using Guid(00391826171b238498a7d1d91d4aaa5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f8a0e392d7bcd512822da95811eaba0') in 0.020308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Music/SuperGrottoEScape Audio Music Files/public-license.txt
+  artifactKey: Guid(b507b19e8dd7e9a408a25eafd6f0a101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Music/SuperGrottoEScape Audio Music Files/public-license.txt using Guid(b507b19e8dd7e9a408a25eafd6f0a101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dee2bf928e6ea23bc789796702f79ae0') in 0.014264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(800dbb22c425c5941a8df60d682b29fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(800dbb22c425c5941a8df60d682b29fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05b8d632c1105c4c1561f986de094e09') in 0.018278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Props/Sprites/terminal.png
+  artifactKey: Guid(55d1934bbe0c0ef4e961000b74225049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Props/Sprites/terminal.png using Guid(55d1934bbe0c0ef4e961000b74225049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57f4cc22b885454e838d911d2a3a91cd') in 0.025395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Props/Sprites/support.png
+  artifactKey: Guid(0b415760768b9974dabaccebfb5b6a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Props/Sprites/support.png using Guid(0b415760768b9974dabaccebfb5b6a17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b8080ec17ac1bd1c4128b9c591bd3a8') in 0.021629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/Player_Run.anim
+  artifactKey: Guid(4f4c6f243be3b0d4085065521b378061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Player_Run.anim using Guid(4f4c6f243be3b0d4085065521b378061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '792d5246cfa75823d761aef562b3c8f1') in 0.010806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/Previews/player-run-shoot.gif
+  artifactKey: Guid(ac22e540cc597184c819c66f703a5dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/Previews/player-run-shoot.gif using Guid(ac22e540cc597184c819c66f703a5dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fadff79afc9f1fc8e8d0eff0c6867965') in 0.028081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/fly-eye.png
+  artifactKey: Guid(ce7e2685023a2f14f8517e049119086d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/fly-eye.png using Guid(ce7e2685023a2f14f8517e049119086d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'daac359b24eefa4a5f075dd11975b6b8') in 0.019719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Environment/Layers/middle.png
+  artifactKey: Guid(52e014d4761e9f24c9759eb474c6e535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Environment/Layers/middle.png using Guid(52e014d4761e9f24c9759eb474c6e535) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bae0cc28d31054b1b5a204f2fc3b79e') in 0.021988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f56ad2b73052c4cb9672a38d3e72fbe') in 0.017330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/Previews/player-hurt.gif
+  artifactKey: Guid(68cdac7532108654a8ba521c39245bcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/Previews/player-hurt.gif using Guid(68cdac7532108654a8ba521c39245bcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5334e02e65382915a49e070a42c853d') in 0.020044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/fx/player-shoot.gif
+  artifactKey: Guid(daa0bdddcb30c704ea07aa66ba2836ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/fx/player-shoot.gif using Guid(daa0bdddcb30c704ea07aa66ba2836ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b91fea02b7de18a277b14ba735f51fdc') in 0.018647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Props/Previews/fan.gif
+  artifactKey: Guid(5432abfa9daa1e04c9ee1ba060acee9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Props/Previews/fan.gif using Guid(5432abfa9daa1e04c9ee1ba060acee9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90d78643413c0f9caeeaeee03db9e7c9') in 0.021042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/fireball4.png
+  artifactKey: Guid(ba9fb1b145e1b934c940223e4cbcc44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/fireball4.png using Guid(ba9fb1b145e1b934c940223e4cbcc44f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b9072476101ff17d5da676738e7cb39') in 0.018416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/big-explosion1.png
+  artifactKey: Guid(f2e3e9c8e6a22994f8d282b4c06fcaa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/big-explosion1.png using Guid(f2e3e9c8e6a22994f8d282b4c06fcaa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd0440f9ff8a9fd57dec0fdf057a2ce7') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/ghost4.png
+  artifactKey: Guid(a48718e039199754b87fa660b79ade3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/ghost4.png using Guid(a48718e039199754b87fa660b79ade3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4415d6fed3b1f5e5746b78469c9b7000') in 0.019797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/pick-feedback4.png
+  artifactKey: Guid(1b12ea1ff182e9341a52faab6d633c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/pick-feedback4.png using Guid(1b12ea1ff182e9341a52faab6d633c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5060217c8fdabbe52021c2bca3026b1f') in 0.021384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit2.png
+  artifactKey: Guid(686fa46d7c166d34fbce546fd8ff92f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit2.png using Guid(686fa46d7c166d34fbce546fd8ff92f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fc8cde5c9b094c18539b42f5dc9f200') in 0.022201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-shoot.png
+  artifactKey: Guid(6cecb5a2a4d6fb748b0f75c59c387be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-shoot.png using Guid(6cecb5a2a4d6fb748b0f75c59c387be8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5b3eec27d024b8b72b16721d36c87b5') in 0.022040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-ladder.png
+  artifactKey: Guid(714d9894d62fb4f43bea5c9517ead0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-ladder.png using Guid(714d9894d62fb4f43bea5c9517ead0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da64bdabb2b47dcf54642b951cf5fc07') in 0.028463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/pick-feedback1.png
+  artifactKey: Guid(52a4b911b76b51e4fbcebaa7a39bfc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/pick-feedback1.png using Guid(52a4b911b76b51e4fbcebaa7a39bfc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b93e8806e1384dfff20ba4e3ea4b905a') in 0.085181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/fireball2.png
+  artifactKey: Guid(318946581d214d245b6eb074773166a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/fireball2.png using Guid(318946581d214d245b6eb074773166a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c14db3733d23e7109289b19aa21e58fa') in 0.023270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit3.png
+  artifactKey: Guid(b57a03dcb6eb3a147b6973b59239b307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit3.png using Guid(b57a03dcb6eb3a147b6973b59239b307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77c7eb0b1cca7383e4a7339435edfe40') in 0.020268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye2.png
+  artifactKey: Guid(2e21e3667cad51049a3d4b6d1cf51fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye2.png using Guid(2e21e3667cad51049a3d4b6d1cf51fc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a21fdbb986d616659b74daeebe9ccc6') in 0.026267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot2.png
+  artifactKey: Guid(1f3da41692330f0419d73c7b7e8ddc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot2.png using Guid(1f3da41692330f0419d73c7b7e8ddc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '253497f77b04163c703f7bf6ba4503d3') in 0.022026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-run.png
+  artifactKey: Guid(518621c93adba224e974d874884d115d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/spritesheets/player-run.png using Guid(518621c93adba224e974d874884d115d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55f400fd26520a535ecaa7372da901de') in 0.034382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Props/Sprites/Fan/fan2.png
+  artifactKey: Guid(3d8e0566047b4a84e9fa9e5065df9195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Props/Sprites/Fan/fan2.png using Guid(3d8e0566047b4a84e9fa9e5065df9195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b6e3a7150d179f66c65e5ca2be7d6bf') in 0.024098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/bat.png
+  artifactKey: Guid(92fff07f9cf4591419cc3ef403b19723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/bat.png using Guid(92fff07f9cf4591419cc3ef403b19723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1c0616fc4d8a343674c1f4a546ce0fd') in 0.019162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10fecb506bfe2af9a98a6e3722e77a01') in 0.006299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Fx/Spritesheets/pick-feedback-2.png
+  artifactKey: Guid(19e12938117b3884b8e3843c60d388e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Fx/Spritesheets/pick-feedback-2.png using Guid(19e12938117b3884b8e3843c60d388e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39b80b3e0a41c026cf35e310d32d5ac0') in 0.020748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/lizard-shoot1.png
+  artifactKey: Guid(a818a6891b075e04584524abb89cb6f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/lizard-shoot1.png using Guid(a818a6891b075e04584524abb89cb6f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a71fdbd072dfc244987f9c14a7a97b7f') in 0.019094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/player-ladder2.png
+  artifactKey: Guid(62cb4048659c6c54587cae6ec1ac6670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/player-ladder2.png using Guid(62cb4048659c6c54587cae6ec1ac6670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4d83cfe4f1ed7c01755c508aa7fce7c') in 0.022329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png
+  artifactKey: Guid(6f791f9009b801d44823781b9d36dc5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png using Guid(6f791f9009b801d44823781b9d36dc5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ff35253e4eb43d1ff572bae63c08ac6') in 0.020128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/player-spin8.png
+  artifactKey: Guid(67ca93e829b338140a64c1a4aae089fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/player-spin8.png using Guid(67ca93e829b338140a64c1a4aae089fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d436d859b368de69efce85800f7e840') in 0.020302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk4.png
+  artifactKey: Guid(c34ce883f0efead43aee43f8d11fd8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk4.png using Guid(c34ce883f0efead43aee43f8d11fd8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66aa5f0f534bef68441dfb837e5409d3') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png
+  artifactKey: Guid(d405fa92cd546a4469764c2e99fd45c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png using Guid(d405fa92cd546a4469764c2e99fd45c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4df43ce81992898070102afd86149cce') in 0.021285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/lizard-move1.png
+  artifactKey: Guid(7bbefccbfab32be40b1f941318e5998c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/lizard-move1.png using Guid(7bbefccbfab32be40b1f941318e5998c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b76690835835269e2b29c1bb5231fa15') in 0.019331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/player-spin6.png
+  artifactKey: Guid(5c06f1a61dac7ad4cb019d4dd52a5e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/player-spin6.png using Guid(5c06f1a61dac7ad4cb019d4dd52a5e5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5845730ba7c39dfc44e31dc8592cd0c4') in 0.021061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png
+  artifactKey: Guid(c3a39581d30beee4fa8d685d040f224f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png using Guid(c3a39581d30beee4fa8d685d040f224f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '330182500f92b7282b43e4106144dad5') in 0.020077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk6.png
+  artifactKey: Guid(cead75f6a4d977c479cfe4b013152113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk6.png using Guid(cead75f6a4d977c479cfe4b013152113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23836fff2bacae27c21c9dc3332b8ec9') in 0.020924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/slime5.png
+  artifactKey: Guid(17a1e70cef1031046acfb3bcf50e587a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/slime5.png using Guid(17a1e70cef1031046acfb3bcf50e587a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66716847cef3c4513687b6cd46293295') in 0.032058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk8.png
+  artifactKey: Guid(f1a4372fe0ed2134182b5df160082ea1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk8.png using Guid(f1a4372fe0ed2134182b5df160082ea1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f43b9af6fea40b7349eeeb934dfd6cc') in 0.021420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/lizard-move3.png
+  artifactKey: Guid(bc78308230db632479739155f1c16f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/lizard-move3.png using Guid(bc78308230db632479739155f1c16f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a78f5a66e4e1d6c86f59b4f7e2fdc449') in 0.018925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/lizard-shoot4.png
+  artifactKey: Guid(8e50e10253e22084eb2b34569ede7761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/lizard-shoot4.png using Guid(8e50e10253e22084eb2b34569ede7761) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b46296d804b6a20f4d9b6e8aedfc148') in 0.022605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/skeleton-idle3.png
+  artifactKey: Guid(1b408f07a1ecd4e49b03675a2a3bf20c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/skeleton-idle3.png using Guid(1b408f07a1ecd4e49b03675a2a3bf20c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c002cbb907f58bcee86a0d09efb9848d') in 0.025833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott5.png
+  artifactKey: Guid(fae9f68827f24284186c3a053d0e8e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott5.png using Guid(fae9f68827f24284186c3a053d0e8e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c11b9aeef2eaac3040405bd51d9458d8') in 0.017757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Environment/Layers/props/palm.png
+  artifactKey: Guid(8ed6ba8f135063744ad968725f194fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Environment/Layers/props/palm.png using Guid(8ed6ba8f135063744ad968725f194fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65c4bedbd74cfecfc0a462e261a931f4') in 0.020838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott2.png
+  artifactKey: Guid(bd5adb372b5453943a3d7102be3abe11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott2.png using Guid(bd5adb372b5453943a3d7102be3abe11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46096dbe7b013ada15cc0a61f43fc3ce') in 0.022958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Environment/Layers/tileset.png
+  artifactKey: Guid(ba3696f89c7ce5646837ce4ad3660378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Environment/Layers/tileset.png using Guid(ba3696f89c7ce5646837ce4ad3660378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef9f0bd7354aff82542bf5cdbff1f0c7') in 0.023614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye4.png
+  artifactKey: Guid(77a568c0ea60e47409fa867ad91ea0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye4.png using Guid(77a568c0ea60e47409fa867ad91ea0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c60df33758498bfd89d2c3cf019c832b') in 0.019869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot1.png
+  artifactKey: Guid(6b6c4a154f8986b4c84e5addf144fe6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot1.png using Guid(6b6c4a154f8986b4c84e5addf144fe6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74df8cf823cd39a92754a8855b4ebfc5') in 0.021198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/ghost-fury-2.png
+  artifactKey: Guid(9b7f2b6c21b9db84f9d9b5efc2593697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/ghost-fury-2.png using Guid(9b7f2b6c21b9db84f9d9b5efc2593697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '363518e4bb3032e1ed5dbc8c7aa9168c') in 0.021121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/lizard-move.png
+  artifactKey: Guid(c147924a638eb2c4bbceb6cdb4e7b067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Super Grotto Escape Files/Characters/Enemies/spritesheet/lizard-move.png using Guid(c147924a638eb2c4bbceb6cdb4e7b067) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '638d02977dbaed8b637b2b36308d27fd') in 0.019410 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.2 MB). Loaded Objects now: 5973.
+Memory consumption went from 99.8 MB to 98.6 MB.
+Total: 4.432200 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.131700 ms MarkObjects: 3.319400 ms  DeleteObjects: 0.524700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
